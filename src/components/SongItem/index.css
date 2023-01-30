@@ -1,0 +1,51 @@
+.track-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 15px;
+}
+.track-left-container {
+  min-width: 300px;
+  max-width: 450px;
+  display: flex;
+}
+.track-thumbnail {
+  height: 85px;
+  width: 130px;
+}
+.track-of-container {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  margin-left: 10px;
+  height: 75px;
+}
+.track-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+.track-genre {
+  font-size: 15px;
+  color: #3b82f6;
+  margin-top: 0px;
+}
+.track-right-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100px;
+}
+.track-duration {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-left: 10px;
+}
+.delete-icon {
+  color: white;
+  cursor: pointer;
+}
+.delete-button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
